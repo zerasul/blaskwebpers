@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/bulmapers.css')}}">
+    <style>
+     
+    </style>
+  </head>
+  <body>
+    <div class="columns is-desktop" >
+      <div class="column is-2 aside">
+        <div class="container">
+          <figure class="image profile">
+            <img src="https://bulma.io/images/placeholders/128x128.png" />
+          </figure>
+          <div class="subcontent">
+            <h3 class="title is-3">Victor Suarez</h3>
+            <h4 class="title is-4">Ingeniero en Informática</h4>
+            <p>Ingeniero y entusiasta de la tecnología. Siempre esta aprendiendo sobre tecnología. Además le encanta dar charlas y talleres sobre tecnología tanto actual como retro.</p>
+          </div>
+        </div>
+          <div class="columns socialmedia">
+            <div class="column"><a href="https://twitter.com/zerasul"><img src="static/img/twitter.png" alt="twitter"/></a></div>
+            <div class="column"><a href="https://github.com/zerasul"><img src="static/img/github.png" alt="github"/></a></div>
+            <div class="column"><a href="https://www.linkedin.com/in/victor-suarez-garcia/"><img src="static/img/linkedin.png" alt="linkedin"/></a></div>
+          </div>
+          <div class="subcontent">
+          <p>&copy; 2020. Made with <a href="https://getblask.com">Blask</a>.</p>
+        </div>
+      </div>
+      <div class="column">
+       
+          
+            <nav class="navbar" id="navigation" role="navigation" aria-label="main navigation">
+              <a href="/" class="navbar-item">
+                Blog
+              </a>
+              <a href="{{config.site_url}}proyectos" class="navbar-item">
+                Proyectos
+              </a>
+              <a href="{{config.site_url}}charlas" class="navbar-item">
+                Talleres y Charlas
+              </a>
+             
+            </nav>
+          
+          <section>
+          <div class="maincontent container is-fluid">
+            {{ content|safe }}
+          </div>
+        </section>
+        </div>
+    </div>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  </body>
+</html>
+
+
+

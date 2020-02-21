@@ -1,0 +1,30 @@
+.column.aside{
+    background-color: rgb(75, 75, 75);
+  }
+  .image.profile{
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+  }
+  .subcontent{
+    margin-left: 1em;
+    margin-top: 1em;
+  }
+  .subcontent,.subcontent h3,.subcontent h4{
+   
+    color: whitesmoke;
+  }
+  .columns.socialmedia{
+    padding-left: 1em; background-color: whitesmoke; margin-bottom: 0.5em; border-radius: 0.25em; margin-top: 2em; margin-left: 2em; margin-right: 2em;
+  }
+  #navigation{
+    margin-right: .75em;
+  }
+  .maincontent{
+    margin: 1em;
+  }
+  .navbar{
+    background-color: rgb(235, 235, 235);
+  }
+  .article{
+    padding: 0.5em 0 0.5em 0;
+  }
