@@ -60,11 +60,23 @@
               </div>
               <div class="level-item has-text-centered">
                 <div>
-                  <p>{%if author %} {{author}} {% endif %}</p>
+                  <p>{%if author %} Autor: {{author}} {% endif %}</p>
                 </div>
               </div>
             </nav>
             {{ content|safe }}
+            <nav class="level">
+              <div class="level-item has-text-centered">
+                <div>
+                  <p >{%if category %} Categor&iacute;a: {{category}} {% endif %}</p>
+                </div>
+              </div>
+              <div class="level-item has-text-centered">
+                <div>
+                  <p>{%if tags %} Tags: {%for tag in tags %}{{tag}}, {% endfor%} {% endif %}</p>
+                </div>
+              </div>
+            </nav>
           </div>
         </section>
         </div>

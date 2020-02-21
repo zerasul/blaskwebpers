@@ -3,6 +3,8 @@ date: 2020-02-24
 title: Test2
 template: blog.html
 author: Victor
+category: articulo
+tags: megadrive, sgdk
 ---
 
 <section class="hero">
