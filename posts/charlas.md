@@ -62,7 +62,7 @@
       <a href="https://slides.com/zerasul/integracion-de-sistemas-con-mule-esb#/">Charla de Introducci&oacute;n a Python</a>
     </p>
     <p class="subtitle">
-      Charla sobre introducci&oacute; al lenguaje de programaci&oacute;n Python. Impartido en Andaluc&iacute;a compromiso digital el 21 de Marzo de 2019.
+      Charla sobre introducci&oacute;n al lenguaje de programaci&oacute;n Python. Impartido en Andaluc&iacute;a compromiso digital el 21 de Marzo de 2019.
     </p>
   </div>
 </div>

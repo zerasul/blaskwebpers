@@ -52,26 +52,7 @@
   </div>
   </div>
 
-  <div class="article">
-  <div class="card">
-  <div class="card-content">
-    <p class="title">
-      Ellimecha Dice of Evil
-    </p>
-    <p class="subtitle">
-      Peque&ntilde;o addon para el juego World of Warcraft para poder realizar tiradas aleatorias.
-    </p>
-    </div>
-     <footer class="card-footer">
-        <p class="card-footer-item">
-            <span><a href="https://github.com/zerasul/ellidice">Repo</a></span>
-        </p>
-        <p class="card-footer-item">
-             <span><a href="https://www.curseforge.com/wow/addons/ellimecha-dice-of-evil">Curse Forge Webpage</a></span>
-        </p>
-     </footer>
-  </div>
-  </div>
+  
   <div class="article">
   <div class="card">
   <div class="card-content">
