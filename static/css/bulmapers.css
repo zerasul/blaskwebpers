@@ -5,6 +5,9 @@
     margin-left: 0.5em;
     margin-top: 0.5em;
   }
+  .image.profile img{
+    border-radius: 1em;
+  }
   .subcontent{
     margin-left: 1em;
     margin-top: 1em;

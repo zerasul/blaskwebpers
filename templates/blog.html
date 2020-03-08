@@ -15,7 +15,7 @@
       <div class="column is-2 aside">
         <div class="container">
           <figure class="image profile">
-            <img src="https://bulma.io/images/placeholders/128x128.png" />
+            <img src="/static/img/mifotojaq.jpg" />
           </figure>
           <div class="subcontent">
             <h3 class="title is-3">Victor Suarez</h3>
@@ -24,9 +24,9 @@
           </div>
         </div>
           <div class="columns socialmedia">
-            <div class="column"><a href="https://twitter.com/zerasul"><img src="static/img/twitter.png" alt="twitter"/></a></div>
-            <div class="column"><a href="https://github.com/zerasul"><img src="static/img/github.png" alt="github"/></a></div>
-            <div class="column"><a href="https://www.linkedin.com/in/victor-suarez-garcia/"><img src="static/img/linkedin.png" alt="linkedin"/></a></div>
+            <div class="column"><a href="https://twitter.com/zerasul"><img src="/static/img/twitter.png" alt="twitter"/></a></div>
+            <div class="column"><a href="https://github.com/zerasul"><img src="/static/img/github.png" alt="github"/></a></div>
+            <div class="column"><a href="https://www.linkedin.com/in/victor-suarez-garcia/"><img src="/static/img/linkedin.png" alt="linkedin"/></a></div>
           </div>
           <div class="subcontent">
           <p>&copy; 2020. Made with <a href="https://getblask.com">Blask</a>.</p>
@@ -60,7 +60,7 @@
               </div>
               <div class="level-item has-text-centered">
                 <div>
-                  <p>{%if author %} Autor: {{author}} {% endif %}</p>
+                  <p>{%if author %} Autor: <a href="/author/{{author}}">{{author}}</a> {% endif %}</p>
                 </div>
               </div>
             </nav>
@@ -68,12 +68,12 @@
             <nav class="level">
               <div class="level-item has-text-centered">
                 <div>
-                  <p >{%if category %} Categor&iacute;a: {{category}} {% endif %}</p>
+                  <p >{%if category %} Categor&iacute;a: <a href="/category/{{category}}">{{category}}</a> {% endif %}</p>
                 </div>
               </div>
               <div class="level-item has-text-centered">
                 <div>
-                  <p>{%if tags %} Tags: {%for tag in tags %}{{tag}}, {% endfor%} {% endif %}</p>
+                  <p>{%if tags %} Tags: {%for tag in tags %} <a href="/tag/{{tag}}">{{tag}}</a>, {% endfor%} {% endif %}</p>
                 </div>
               </div>
             </nav>
