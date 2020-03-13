@@ -15,10 +15,10 @@
   <div class="card">
   <div class="card-content">
     <p class="title">
-      <a href="/debug">Depurando Mega Drive con Visual Studio Code</a>
+      <a href="/blog/debug">Depurando Mega Drive con Visual Studio Code</a>
     </p>
     <p class="subtitle">
-     Art&iacute;culo donde explicamos como utilizar GDB para poder depurar un juego de sega mega drive, usando el emulador Gens KMod.
+     Artículo donde explicamos como utilizar GDB para poder depurar un juego de sega mega drive, usando el emulador Gens KMod.
     </p>
     </div>
      <footer class="card-footer">
