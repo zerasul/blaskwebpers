@@ -34,3 +34,26 @@ Pero antes de entrar en materia, vamos a ver como funciona el depurador y como p
 <span><strong>Esquema de depuracion Remota</strong></span>
 
 Como podemos ver en el esquema anterior, en nuestro equipo de desarrollo (host), tendremos el editor Visual Studio code que se comunicara con el depurador GDB y este a su vez, se conectara con el juego que este ejecutandose en este caso (aunque mostramos en el esquema una mega drive), se trata de un emulador. Vamos a ver  a continuación, cada una de estas partes para depurar nuestros juegos de mega drive que crearemos con SGDK.
+
+Para empezar, vamos a ver un ejemplo de código C usando SGDK; haciendo un "Hola Mundo":
+
+    :::C
+    #include <genesis.h>
+
+    int main(){
+
+      VDP_drawText("Hello Sega!", 10, 13); 
+      
+      while(1){
+         VDP_waitVSync();
+      }
+      return 0;
+    }
+
+Si compilamos el juego y lo ejecutamos, veremos como en un emulador (o en un hardware real), se muestra por pantalla con letras el texto 'Hello Sega!'. Para poder compilar este programa, normalmente utilizariamos un compilador de C como puede ser [GCC](https://gcc.gnu.org/), o usaremos la herramienta [make](https://www.gnu.org/software/make/), para poder crear el binario.
+
+``` %GDK_WIN%\bin\make -f %GDK_WIN%\makefile.gen ```
+
+**NOTA**: Este comando coresponde a la instalación SGDK para Windows.
+
+Esto generara un binario, cuyo contenido esta formado por 0 y 1. El cual no podemos leerlo a simple vista (aunque podemos sacar el ensamblador y ver cada instrucción); por lo que necesitaremos poder traducir este binario para poder depurarlo posteriormente.
