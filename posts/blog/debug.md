@@ -20,6 +20,4 @@ tags: megadrive, sgdk
   </div>
 </section>
 
-<div class="content">
-    En este artículo, vamos a ver como 
-</div>
+aa
