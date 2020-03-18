@@ -31,3 +31,27 @@
   .article{
     padding: 0.5em 0 0.5em 0;
   }
+
+  .mobileaside{
+    background-color: rgb(75, 75, 75);
+  }
+
+  @media(min-width: 1024px){
+    .mobileaside{
+    display:none;
+    }
+    .columns.socialmedia{
+      display:none;
+    }
+  }
+  @media(min-width: 1216px){
+    .columns.socialmedia{
+      display: flex!important;
+    }
+  }
+  @media(max-width: 1023px){
+    .aside{
+      display: none;
+    }
+    
+  }
