@@ -23,7 +23,10 @@
     margin-right: .75em;
   }
   .maincontent{
-    margin: 1em;
+    margin: 1em; 
+  }
+  .blogcontent p{
+    padding-bottom: 1.25em;
   }
   .navbar{
     background-color: rgb(235, 235, 235);
@@ -35,7 +38,15 @@
   .mobileaside{
     background-color: rgb(75, 75, 75);
   }
-
+  img+span{
+    font-size: 0.80em;
+    display: block;
+    text-align: center;
+  }
+  .blogcontent img{
+    margin-left: auto;
+    margin-right: auto; 
+  }
   @media(min-width: 1024px){
     .mobileaside{
     display:none;
@@ -48,6 +59,7 @@
     .columns.socialmedia{
       display: flex!important;
     }
+   
   }
   @media(max-width: 1023px){
     .aside{
