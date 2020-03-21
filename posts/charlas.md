@@ -99,3 +99,14 @@
     </p>
   </div>
 </div>
+<div class="article">
+<div class="card">
+  <div class="card-content">
+    <p class="title">
+      <a href="https://slides.com/zerasul/git">Taller de Introducci&oacute;n a Git</a>
+    </p>
+    <p class="subtitle">
+     Taller de introducción al control de versiones GIT impartido por primera vez en las primeras jornadas HackLab Almería, en Julio de 2015.
+    </p>
+  </div>
+</div>
