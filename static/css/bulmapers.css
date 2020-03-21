@@ -42,10 +42,13 @@
     font-size: 0.80em;
     display: block;
     text-align: center;
+    margin-bottom: 2em;
   }
-  .blogcontent img{
-    margin-left: auto;
-    margin-right: auto; 
+  .resp-image+span{
+    font-size: 0.80em;
+    display: block;
+    text-align: center;
+    margin-bottom: 2em;
   }
   @media(min-width: 1024px){
     .mobileaside{
@@ -59,7 +62,15 @@
     .columns.socialmedia{
       display: flex!important;
     }
-   
+    .resp-image{
+     display:flex;
+     align-items: center;
+     padding-left: 7em;
+    }
+    .resp-image img{
+      max-width: 850px;
+    }
+    
   }
   @media(max-width: 1023px){
     .aside{
