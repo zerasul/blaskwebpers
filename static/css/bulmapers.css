@@ -25,6 +25,9 @@
   .maincontent{
     margin: 1em; 
   }
+  .blogcontent{
+    margin-top: -3em;
+  }
   .blogcontent p{
     padding-bottom: 1.25em;
   }
