@@ -194,6 +194,7 @@ Por último, con la depuración ya conseguida, podremos depurar nuestros juegos 
       <li><a href="https://github.com/jdesiloniz/ssp16asm">https://github.com/jdesiloniz/ssp16asm</a></li>
       <li><a href="https://code.visualstudio.com/docs/cpp/cpp-debug">https://code.visualstudio.com/docs/cpp/cpp-debug</a></li>
       <li><a href="https://marketplace.visualstudio.com/items?itemName=zerasul.genesis-code">https://marketplace.visualstudio.com/items?itemName=zerasul.genesis-code</a></li>
+      <li>Grupo de Desarrolladores Mega Drive Dev de telegram</li>
   </ul>
 </div>
 
