@@ -69,7 +69,7 @@ Esto generara un binario, cuyo contenido esta formado por 0 y 1. El cual no pode
 
 Esto nos va a generar la ROM con todo lo que necesitaremos para poder depurar nuestra ROM. Como la tabla de simbolos que podemos encontrar en _out/simbols.txt_. Contiene toda la información de variables y funciones de nuestro juego.
 
-Otro aspecto a tener en cuenta es como vamos a poder depurar el juego y ejecutarlo; aunque existen cartuchos como los [everdrive](https://www.amazon.es/Everdrive-Megadrive-genesis-Flash-Drive/dp/B00I121A1M); que permiten usando una tarjeta SD, añadir ROMS para poder jugarlos en nuestra Mega Drive, aunque no permiten realizar una depuración; aunque existen proyectos para poder crear un cartucho que pueda ser usado como depurador. Para nuestro caso, usaremos un emulador para poder realizar la depuración.
+Otro aspecto a tener en cuenta es como vamos a poder depurar el juego y ejecutarlo; aunque existen cartuchos como los [everdrive](https://www.amazon.es/Everdrive-Megadrive-genesis-Flash-Drive/dp/B00I121A1M); que permiten usando una tarjeta SD, añadir ROMS para poder jugarlos en nuestra Mega Drive, aunque no permiten realizar una depuración; aunque existen [proyectos](https://github.com/jdesiloniz/ssp16asm) para poder crear un cartucho que pueda ser usado como depurador. Para nuestro caso, usaremos un emulador para poder realizar la depuración.
 
 En este artículo hemos probado con el emulador [Gens](https://segaretro.org/Gens_KMod) con la modificación Kmod. Se ha intentado con otro emulador como [Blastem](https://www.retrodev.com/blastem/), pero no tiene implementado completamente el poder depurar usando GDB.
 
@@ -191,6 +191,7 @@ Por último, con la depuración ya conseguida, podremos depurar nuestros juegos 
       <li><a href="https://www.gnu.org/software/gdb/">https://www.gnu.org/software/gdb/</a></li>
       <li><a href="https://gcc.gnu.org/">https://gcc.gnu.org/</a></li>
       <li><a href="https://segaretro.org/Gens_KMod">https://segaretro.org/Gens_KMod</a></li>
+      <li><a href="https://github.com/jdesiloniz/ssp16asm">https://github.com/jdesiloniz/ssp16asm</a></li>
       <li><a href="https://code.visualstudio.com/docs/cpp/cpp-debug">https://code.visualstudio.com/docs/cpp/cpp-debug</a></li>
       <li><a href="https://marketplace.visualstudio.com/items?itemName=zerasul.genesis-code">https://marketplace.visualstudio.com/items?itemName=zerasul.genesis-code</a></li>
   </ul>
