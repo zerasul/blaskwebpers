@@ -4,7 +4,7 @@ title: Depurando Mega Drive usando VSCode | Victor Suarez
 template: blog.html
 author: Victor
 category: articulo
-tags: megadrive, sgdk
+tags: megadrive,sgdk
 ---
 
 <section class="hero">
@@ -142,7 +142,7 @@ Para poder configurar la depuración en VSCode, vamos a añadir un fichero con l
               "program": "${workspaceRoot}\\out\\rom.out",
               "miDebuggerServerAddress": "localhost:6868",
               "sourceFileMap": {
-                  "d:\\apps\\sgdk\\src\\": "F:\\SGDK2\\src\\",
+                  "d:\\apps\\sgdk\\src\\": "${env:GDK}\\src\\",
               },
               "args": [],
               "stopAtEntry": true,
@@ -151,7 +151,7 @@ Para poder configurar la depuración en VSCode, vamos a añadir un fichero con l
               "externalConsole": false,
               "MIMode": "gdb",
               "launchCompleteCommand": "exec-continue",
-              "miDebuggerPath": "F:\\SGDK2\\bin\\gdb.exe",
+              "miDebuggerPath": "${env:GDK}\\bin\\gdb.exe",
               "setupCommands": [
                   {
                       "text": "set directories '${workspaceFolder};$cwd;$cdir'"
