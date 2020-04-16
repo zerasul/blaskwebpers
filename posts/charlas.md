@@ -15,6 +15,29 @@
 <div class="card">
   <div class="card-content">
     <p class="title">
+      <a href="https://github.com/zerasul/intro-rustlab">Taller de Introducción a Rust</a>
+    </p>
+    <p class="subtitle">
+      Taller de instroducción al Lenguaje Rust. Impartido Online el 13 de Abril de 2020.
+    </p>
+  </div>
+</div>
+<div class="article">
+<div class="card">
+  <div class="card-content">
+    <p class="title">
+      <a href="https://slides.com/zerasul/gestion-de-proyectos-open-source#/">Dom&oacute;tica con Micropython y Home Assistant</a>
+    </p>
+    <p class="subtitle">
+      Charla realizada en pyday de python Granada el d&iacute;a 14 de diciembre. En esta charla se habl&oacute; de como utilizar Micropython en los microcontroladores ESP y el software para domotica Home Assistant.
+    </p>
+  </div>
+</div>
+
+<div class="article">
+<div class="card">
+  <div class="card-content">
+    <p class="title">
       <a href="https://slides.com/zerasul/gestion-de-proyectos-open-source#/">Gesti&oacute;n de proyectos Open Source con Herramientas Gratuitas</a>
     </p>
     <p class="subtitle">
