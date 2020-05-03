@@ -22,17 +22,6 @@
     </p>
   </div>
 </div>
-<div class="article">
-<div class="card">
-  <div class="card-content">
-    <p class="title">
-      <a href="https://slides.com/zerasul/gestion-de-proyectos-open-source#/">Dom&oacute;tica con Micropython y Home Assistant</a>
-    </p>
-    <p class="subtitle">
-      Charla realizada en pyday de python Granada el d&iacute;a 14 de diciembre. En esta charla se habl&oacute; de como utilizar Micropython en los microcontroladores ESP y el software para domotica Home Assistant.
-    </p>
-  </div>
-</div>
 
 <div class="article">
 <div class="card">
@@ -45,14 +34,15 @@
     </p>
   </div>
 </div>
+
 <div class="article">
 <div class="card">
   <div class="card-content">
     <p class="title">
-      <a href="https://slides.com/zerasul/gestion-de-proyectos-open-source#/">Dom&oacute;tica con Micropython y Home Assistant</a>
+      <a href="https://slides.com/zerasul/upythondomotica#/">Dom&oacute;tica con Micropython y Home Assistant</a>
     </p>
     <p class="subtitle">
-      Charla realizada en pyday de python Granada el d&iacute;a 14 de diciembre. En esta charla se habl&oacute; de como utilizar Micropython en los microcontroladores ESP y el software para domotica Home Assistant.
+      Charla realizada en pyday de python Granada el d&iacute;a 14 de diciembre de 2019. En esta charla se habl&oacute; de como utilizar Micropython en los microcontroladores ESP y el software para domotica Home Assistant.
     </p>
   </div>
 </div>
@@ -82,7 +72,7 @@
 <div class="card">
   <div class="card-content">
     <p class="title">
-      <a href="https://slides.com/zerasul/integracion-de-sistemas-con-mule-esb#/">Charla de Introducci&oacute;n a Python</a>
+      <a href="https://slides.com/zerasul/introduccion-a-la-programacion-con-python#/">Charla de Introducci&oacute;n a Python</a>
     </p>
     <p class="subtitle">
       Charla sobre introducci&oacute;n al lenguaje de programaci&oacute;n Python. Impartido en Andaluc&iacute;a compromiso digital el 21 de Marzo de 2019.
@@ -93,7 +83,7 @@
 <div class="card">
   <div class="card-content">
     <p class="title">
-      <a href="http://www.juntadeandalucia.es/averroes/centros-tic/04004620/moodle2/mod/resource/view.php?id=2797">Desarrollo dirigido en Modelos</a>
+      <a href="https://docs.google.com/presentation/d/1p_mcXVl7xDu3Xy3o1ZIsLXMFeRlY2lB6OhFEaZ6Z6_c/edit?usp=sharing">Desarrollo dirigido en Modelos</a>
     </p>
     <p class="subtitle">
         Charla impartidas en las XV jornadas SLCENT del Instituto IES Al-Andalus. Charla acerca del uso del desarrollo dirigido por modelos para poder aplicarlo a la generaci&oacute;n de c&oacute;digo fuente automatizado.
@@ -104,7 +94,7 @@
 <div class="card">
   <div class="card-content">
     <p class="title">
-      <a href="https://slides.com/zerasul/introduccion-a-la-programacion-con-python#/">Integraci&oacute;n de Sistemas con MULE ESB</a>
+      <a href="https://slides.com/zerasul/integracion-de-sistemas-con-mule-esb#/">Integraci&oacute;n de Sistemas con MULE ESB</a>
     </p>
     <p class="subtitle">
      Charla ofrecida a los alumnos del master en Ingenier&iacute;a inform&aacute;tica de la Universidad de Almer&iacute;a el 22 de Diciembre de 2018. Acerca del uso del Bus de Integraci&oacute;n de servicios Mule ESB.
