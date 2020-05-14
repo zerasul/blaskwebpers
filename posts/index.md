@@ -23,7 +23,7 @@
     </div>
      <footer class="card-footer">
         <p class="card-footer-item">
-            <span>2020-05-14</span>
+            <span>14-05-2020</span>
         </p>
         <p class="card-footer-item">
             Articulo
@@ -44,7 +44,7 @@
     </div>
      <footer class="card-footer">
         <p class="card-footer-item">
-            <span>2020-02-24</span>
+            <span>24-02-2020</span>
         </p>
         <p class="card-footer-item">
             Articulo
