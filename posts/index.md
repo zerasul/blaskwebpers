@@ -11,6 +11,27 @@
   </div>
 </section>
 
+<div class="article">
+  <div class="card">
+  <div class="card-content">
+    <p class="title">
+      <a href="/blog/tiles">Creando niveles de Juegos Con Tiled y Mega Drive</a>
+    </p>
+    <p class="subtitle">
+     Artículo se explica como utilizar la herramienta tiled! para generar mapas y usarlo en Mega Drive con SGDK.
+    </p>
+    </div>
+     <footer class="card-footer">
+        <p class="card-footer-item">
+            <span>2020-05-14</span>
+        </p>
+        <p class="card-footer-item">
+            Articulo
+        </p>
+     </footer>
+  </div>
+  </div>
+
  <div class="article">
   <div class="card">
   <div class="card-content">
