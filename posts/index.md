@@ -15,6 +15,27 @@
   <div class="card">
   <div class="card-content">
     <p class="title">
+      <a href="/blog/gba">Creando juegos de Game Boy Advance con Rust</a>
+    </p>
+    <p class="subtitle">
+     Usar el lenguaje Rust para poder crear Juegos para Game Boy Advance.
+    </p>
+    </div>
+     <footer class="card-footer">
+        <p class="card-footer-item">
+            <span>05-07-2020</span>
+        </p>
+        <p class="card-footer-item">
+            Articulo
+        </p>
+     </footer>
+  </div>
+  </div>
+
+<div class="article">
+  <div class="card">
+  <div class="card-content">
+    <p class="title">
       <a href="/blog/tiles">Creando niveles de Juegos Con Tiled y Mega Drive</a>
     </p>
     <p class="subtitle">
