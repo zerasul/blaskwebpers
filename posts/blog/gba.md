@@ -263,7 +263,7 @@ Para ejecutar este fichero, se utilizara la orden make seguida de la tarea.
     :::bash
     cargo make build
 
-Os dejamos un enlace con [este ejemplo](https://github.com/zerasul/gba-rust) preparado para que podáis prepararlo.
+Os dejamos un enlace con [este ejemplo](https://github.com/zerasul/gba-rust) preparado para que podáis probarlo.
 
 <h3 class="title is-3">Referencias </h3>
 
