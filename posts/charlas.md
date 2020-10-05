@@ -15,6 +15,18 @@
 <div class="card">
   <div class="card-content">
     <p class="title">
+      <a href="https://slides.com/zerasul/gestion-de-proyectos-open-source-513abe">Charla de introducción a Github</a>
+    </p>
+    <p class="subtitle">
+      Charla de introducción a git y github para el evento HacktoberfestEs, el 4 de Octubre 2020.
+    </p>
+  </div>
+</div>
+
+<div class="article">
+<div class="card">
+  <div class="card-content">
+    <p class="title">
       <a href="https://github.com/zerasul/intro-rustlab">Taller de Introducción a Rust</a>
     </p>
     <p class="subtitle">
