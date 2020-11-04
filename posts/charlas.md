@@ -15,6 +15,18 @@
 <div class="card">
   <div class="card-content">
     <p class="title">
+      <a href="https://slides.com/zerasul/oh-no-git">Charla de Intermedia de Git y Github</a>
+    </p>
+    <p class="subtitle">
+      Charla Intermedia de Git y Github; impartida dentro del evento de HacktoberFestEs para Python España y Python Chile.
+    </p>
+  </div>
+</div>
+
+<div class="article">
+<div class="card">
+  <div class="card-content">
+    <p class="title">
       <a href="https://slides.com/zerasul/gestion-de-proyectos-open-source-513abe">Charla de introducción a Github</a>
     </p>
     <p class="subtitle">
