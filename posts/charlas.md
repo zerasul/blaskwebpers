@@ -15,10 +15,10 @@
 <div class="card">
   <div class="card-content">
     <p class="title">
-      <a href="https://slides.com/zerasul/oh-no-git">Charla de Intermedia de Git y Github</a>
+      <a href="https://slides.com/zerasul/oh-no-git">Charla Intermedia de Git y Github</a>
     </p>
     <p class="subtitle">
-      Charla Intermedia de Git y Github; impartida dentro del evento de HacktoberFestEs para Python España y Python Chile.
+      Charla Intermedia de Git y Github; impartida dentro del evento de HacktoberFestEs para Python España y Python Chile. Impartida el 24 de Octubre de 2020.
     </p>
   </div>
 </div>
