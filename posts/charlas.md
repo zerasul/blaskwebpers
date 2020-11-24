@@ -15,6 +15,18 @@
 <div class="card">
   <div class="card-content">
     <p class="title">
+      <a href="static/slemb.pdf" download>Software Libre Embebido</a>
+    </p>
+    <p class="subtitle">
+      Charla impartida durante la conferencia de Akadey-Es 2020 (21 de Noviembre de 2020). Esta charla trata sobre el software libre que podemos utilizar para desarrollar soluciones embebidas o empotradas.
+    </p>
+  </div>
+</div>
+
+<div class="article">
+<div class="card">
+  <div class="card-content">
+    <p class="title">
       <a href="https://slides.com/zerasul/oh-no-git">Charla Intermedia de Git y Github</a>
     </p>
     <p class="subtitle">
