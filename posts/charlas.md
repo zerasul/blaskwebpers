@@ -11,14 +11,15 @@
   </div>
 </section>
 
+
 <div class="article">
 <div class="card">
   <div class="card-content">
     <p class="title">
-      <a href="static/slemb.pdf" download>Software Libre Embebido</a>
+      <a href="https://slides.com/zerasul/comunidades">Comunidades de Software Libre</a>
     </p>
     <p class="subtitle">
-      Charla impartida durante la conferencia de Akadey-Es 2020 (21 de Noviembre de 2020). Esta charla trata sobre el software libre que podemos utilizar para desarrollar soluciones embebidas o empotradas.
+      Charla impartida en las jornadas SLCENT del insituto IES Al-Andalus el 29 de Abril de 2021. Esta charla comenta las distintas comunidades que participan en software libre.
     </p>
   </div>
 </div>
