@@ -11,6 +11,17 @@
   </div>
 </section>
 
+<div class="article">
+<div class="card">
+  <div class="card-content">
+    <p class="title">
+      <a href="static/retro.pdf" download>Desarrollo de Juegos Retro con Software Libre</a>
+    </p>
+    <p class="subtitle">
+      Charla impartida el 26 de Junio de 2021; en el congreso Eslibre, acerca del desarrollo de videojuegos retro con herramientas de software libre.
+    </p>
+  </div>
+</div>
 
 <div class="article">
 <div class="card">
@@ -20,6 +31,18 @@
     </p>
     <p class="subtitle">
       Charla impartida en las jornadas SLCENT del insituto IES Al-Andalus el 29 de Abril de 2021. Esta charla comenta las distintas comunidades que participan en software libre.
+    </p>
+  </div>
+</div>
+
+<div class="article">
+<div class="card">
+  <div class="card-content">
+    <p class="title">
+      <a href="static/slemb.pdf" download>Software Libre Embebido</a>
+    </p>
+    <p class="subtitle">
+      Charla impartida durante la conferencia de Akadey-Es 2020 (21 de Noviembre de 2020). Esta charla trata sobre el software libre que podemos utilizar para desarrollar soluciones embebidas o empotradas.
     </p>
   </div>
 </div>
