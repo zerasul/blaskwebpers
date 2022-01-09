@@ -15,10 +15,46 @@
 <div class="card">
   <div class="card-content">
     <p class="title">
+      <a href="static/mdriveretro.pdf" download>Desarrollo Retro para Mega Drive</a>
+    </p>
+    <p class="subtitle">
+      Taller impartido en la asociación <a href="https://lajaqueria.org">La Jaquería</a>, que trata sobre como realizar desarrollos retro para Sega Mega Drive.
+    </p>
+  </div>
+</div>
+
+<div class="article">
+<div class="card">
+  <div class="card-content">
+    <p class="title">
+      <a href="https://slides.com/zerasul/introduccion-a-c" >Introducción a C</a>
+    </p>
+    <p class="subtitle">
+      Taller impartido en la asociación <a href="https://lajaqueria.org">La Jaquería</a>, que trata sobre una introducción al lenguaje de programación C.
+    </p>
+  </div>
+</div>
+
+<div class="article">
+<div class="card">
+  <div class="card-content">
+    <p class="title">
       <a href="static/retro.pdf" download>Desarrollo de Juegos Retro con Software Libre</a>
     </p>
     <p class="subtitle">
       Charla impartida el 26 de Junio de 2021; en el congreso Eslibre, acerca del desarrollo de videojuegos retro con herramientas de software libre.
+    </p>
+  </div>
+</div>
+
+<div class="article">
+<div class="card">
+  <div class="card-content">
+    <p class="title">
+      <a href="https://slides.com/zerasul/micropythondomotica">Domótica con MicroPython y Home Assistant</a>
+    </p>
+    <p class="subtitle">
+      Charla impartida el 5 de Diciembre de 2020 en el pyday chile, sobre el uso de domotica con Micropython y Home Assistant.
     </p>
   </div>
 </div>
