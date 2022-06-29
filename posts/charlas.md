@@ -15,6 +15,28 @@
 <div class="card">
   <div class="card-content">
     <p class="title">
+      <a href="https://docs.google.com/presentation/d/1LFpuKA-pctBAcUJfJCKCuHT7BJL3yHYBSENDkl29pZQ/edit?usp=sharing">Desarrollo Retro con Pyxel</a>
+    </p>
+    <p class="subtitle">
+      Taller impartido en la asociación <a href="https://lajaqueria.org">La Jaquería</a>, sobre como usar el motor de desarrollo retro para python, Pyxel.
+    </p>
+  </div>
+</div>
+<div class="article">
+<div class="card">
+  <div class="card-content">
+    <p class="title">
+      <a href="https://docs.google.com/presentation/d/1U9xkfqWl638zZjAlyJ2TDE0Xo-IKXsd3BTyTmI6RghU/edit?usp=sharing">Desarrollo para Nintendo DS</a>
+    </p>
+    <p class="subtitle">
+      Taller impartido en la asociación <a href="https://lajaqueria.org">La Jaquería</a>, sobre como desarrollar para la consola portatil Nintendo DS.
+    </p>
+  </div>
+</div>
+<div class="article">
+<div class="card">
+  <div class="card-content">
+    <p class="title">
       <a href="static/mdriveretro.pdf" download>Desarrollo Retro para Mega Drive</a>
     </p>
     <p class="subtitle">
