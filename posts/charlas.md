@@ -18,7 +18,7 @@
       <a href="https://docs.google.com/presentation/d/1LFpuKA-pctBAcUJfJCKCuHT7BJL3yHYBSENDkl29pZQ/edit?usp=sharing">Desarrollo Retro con Pyxel</a>
     </p>
     <p class="subtitle">
-      Taller impartido en la asociación <a href="https://lajaqueria.org">La Jaquería</a>, sobre como usar el motor de desarrollo retro para python, Pyxel.
+      Taller impartido en la asociación <a href="https://lajaqueria.org">La Jaquería</a>, sobre como usar el motor de desarrollo retro para python, Pyxel. Impartido el 27 de Mayo de 2022.
     </p>
   </div>
 </div>
@@ -29,7 +29,7 @@
       <a href="https://docs.google.com/presentation/d/1U9xkfqWl638zZjAlyJ2TDE0Xo-IKXsd3BTyTmI6RghU/edit?usp=sharing">Desarrollo para Nintendo DS</a>
     </p>
     <p class="subtitle">
-      Taller impartido en la asociación <a href="https://lajaqueria.org">La Jaquería</a>, sobre como desarrollar para la consola portatil Nintendo DS.
+      Taller impartido en la asociación <a href="https://lajaqueria.org">La Jaquería</a>, sobre como desarrollar para la consola portatil Nintendo DS. Impartido el 18 de Febrero de 2022.
     </p>
   </div>
 </div>
