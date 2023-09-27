@@ -15,6 +15,17 @@
 <div class="card">
   <div class="card-content">
     <p class="title">
+      <a href="https://docs.google.com/presentation/d/1oGKhqqg-AZ79XAd6K-CP4aekejkrH-yyoxdmGIfZ_B4/edit?usp=sharing">Durango Computer</a>
+    </p>
+    <p class="subtitle">
+      Charla impartida en OpenSouthCode, Sobre el proyecto Durango.
+    </p>
+  </div>
+</div>
+<div class="article">
+<div class="card">
+  <div class="card-content">
+    <p class="title">
       <a href="https://docs.google.com/presentation/d/1LFpuKA-pctBAcUJfJCKCuHT7BJL3yHYBSENDkl29pZQ/edit?usp=sharing">Desarrollo Retro con Pyxel</a>
     </p>
     <p class="subtitle">

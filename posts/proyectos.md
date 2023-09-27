@@ -15,6 +15,46 @@
 <div class="card">
   <div class="card-content">
     <p class="title">
+      Desarrollo Homebrew para 16 Bits
+    </p>
+    <p class="subtitle">
+      Libro con licencia Creative Commons, donde se muestra como desarrollar software casero para la Consola de 16 bits Sega Mega Drive. Disponible en Digital y en Físico en Amazon.
+    </p>
+  </div>
+  <footer class="card-footer">
+        <p class="card-footer-item">
+            <span><a href="https://github.com/zerasul/mdbook">Repo</a></span>
+        </p>
+        <p class="card-footer-item">
+            <span><a href="https://www.amazon.es/dp/B0CF4J4WFL">Libro en Amazon</a></span>
+        </p>
+     </footer>
+</div>
+
+<div class="article">
+<div class="card">
+  <div class="card-content">
+    <p class="title">
+      Colaboración en el Proyecto Durango
+    </p>
+    <p class="subtitle">
+      Proyecto Open Source donde se ha diseñado e implementado tanto hardware y software para crear un ordenador basado en el procesador 6502. Creado por <a href="https://x.com/zuiko21">Zuiko21</a>.
+    </p>
+  </div>
+  <footer class="card-footer">
+        <p class="card-footer-item">
+            <span><a href="https://github.com/durangoretro">Repo</a></span>
+        </p>
+        <p class="card-footer-item">
+            <span><a href="https://durangoretro.com">Web del Proyecto</a></span>
+        </p>
+     </footer>
+</div>
+
+<div class="article">
+<div class="card">
+  <div class="card-content">
+    <p class="title">
       Blask
     </p>
     <p class="subtitle">
