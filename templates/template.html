@@ -1,85 +1,93 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{{title}}</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
-    <link rel="stylesheet" href="{{url_for('static', filename='css/bulmapers.css')}}">
-    <style>
-     
-    </style>
-  </head>
-  <body>
-    <div class="columns is-desktop" >
-      <div class="column is-2-desktop aside">
-        <div class="container">
-          <figure class="image profile">
-            <img src="/static/img/mifotojaq.jpg" alt="mifoto"/>
-          </figure>
-          <div class="subcontent">
-            <h3 class="title is-3">Victor Suarez</h3>
-            <h4 class="title is-4">Ingeniero en Informática</h4>
-            <p>Profesor e ingeniero; entusiasta de la tecnología. Siempre esta aprendiendo sobre tecnología. Además le encanta dar charlas y talleres sobre tecnología tanto actual como retro.</p>
-          </div>
-        </div>
-          <div class="columns socialmedia">
-            <div class="column "><a href="https://x.com/zerasul"><img src="/static/img/twitter.png" alt="twitter"/></a></div>
-            <div class="column "><a href="https://github.com/zerasul"><img src="/static/img/github.png" alt="github"/></a></div>
-            <div class="column "><a href="https://www.linkedin.com/in/victor-suarez-garcia/"><img src="/static/img/linkedin.png" alt="linkedin"/></a></div>
-            <div class="column"><a href="https://mastodon.social/@zerasul">
-              <img src="/static/img/mastodon.svg" alt="mastodon" /></a></div>
-          </div>
-          <div class="subcontent">
-          <p>&copy; 2024. Made with <a href="https://getblask.com">Blask</a>.</p>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{title}}</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+  <link rel="stylesheet" href="{{url_for('static', filename='css/bulmapers.css')}}">
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <div class="columns is-desktop">
+    <div class="column is-2-desktop aside">
+      <div class="container">
+        <figure class="image profile">
+          <img src="/static/img/mifotojaq.jpg" alt="mifoto" />
+        </figure>
+        <div class="subcontent">
+          <h3 class="title is-3">Victor Suarez</h3>
+          <h4 class="title is-4">Ingeniero en Informática</h4>
+          <p>Profesor e ingeniero; entusiasta de la tecnología. Siempre esta aprendiendo sobre tecnología. Además le
+            encanta dar charlas y talleres sobre tecnología tanto actual como retro.</p>
         </div>
       </div>
-      <div class="column">
-            <nav class="navbar" id="navigation" role="navigation" aria-label="main navigation">
-              <a href="/" class="navbar-item">
-                Blog
-              </a>
-              <a href="{{config.site_url}}proyectos" class="navbar-item">
-                Proyectos
-              </a>
-              <a href="{{config.site_url}}charlas" class="navbar-item">
-                Talleres y Charlas
-              </a>
-             
-            </nav>
-          
-          <section>
-          <div class="maincontent container is-fluid">
-            <div class="content">
-            {{ content|safe }}
-            </div>
-          </div>
-        </section>
+      <div class="columns socialmedia">
+        <div class="column "><a href="https://x.com/zerasul"><img src="/static/img/twitter.png" alt="twitter" /></a>
         </div>
-      <div class="column is-2-desktop mobileaside">
-          <div class="container">
-            <div class="subcontent">
-              <h3 class="title is-3">Victor Suarez</h3>
-              <h4 class="title is-4">Ingeniero en Informática</h4>
-              <p>Ingeniero y entusiasta de la tecnología. Siempre esta aprendiendo sobre tecnología. Además le encanta dar charlas y talleres sobre tecnología tanto actual como retro.</p>
-            </div>
-          </div>
-          <div class="columns socialmedia is-mobile">
-            <div class="column is-4-mobile is-5-tablet"><a href="https://twitter.com/zerasul"><img src="/static/img/twitter.png" alt="twitter"/></a></div>
-            <div class="column is-4-mobile is-5-tablet"><a href="https://github.com/zerasul"><img src="/static/img/github.png" alt="github"/></a></div>
-            <div class="column is-4-mobile is-4-tablet"><a href="https://www.linkedin.com/in/victor-suarez-garcia/"><img src="/static/img/linkedin.png" alt="linkedin"/></a></div>
-            <div class="column is-4-mobile is-4-tablet"><a href="https://mastodon.social/@zerasul">
-              <img src="/static/img/mastodon.svg" alt="mastodon" />
-            </a></div>
-          </div>
-          <div class="subcontent">
-          <p>&copy; 2024. Made with <a href="https://getblask.com">Blask</a>.</p>
+        <div class="column "><a href="https://github.com/zerasul"><img src="/static/img/github.png" alt="github" /></a>
         </div>
+        <div class="column "><a href="https://www.linkedin.com/in/victor-suarez-garcia/"><img
+              src="/static/img/linkedin.png" alt="linkedin" /></a></div>
+        <div class="column"><a href="https://mastodon.social/@zerasul">
+            <img src="/static/img/mastodon.svg" alt="mastodon" /></a></div>
+      </div>
+      <div class="subcontent">
+        <p>&copy; 2024. Made with <a href="https://getblask.com">Blask</a>.</p>
       </div>
     </div>
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-  </body>
+    <div class="column">
+      <nav class="navbar" id="navigation" role="navigation" aria-label="main navigation">
+        <a href="/" class="navbar-item">
+          Blog
+        </a>
+        <a href="{{config.site_url}}proyectos" class="navbar-item">
+          Proyectos
+        </a>
+        <a href="{{config.site_url}}charlas" class="navbar-item">
+          Talleres y Charlas
+        </a>
+
+      </nav>
+
+      <section>
+        <div class="maincontent container is-fluid">
+          <div class="content">
+            {{ content|safe }}
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="column is-2-desktop mobileaside">
+      <div class="container">
+        <div class="subcontent">
+          <h3 class="title is-3">Victor Suarez</h3>
+          <h4 class="title is-4">Ingeniero en Informática</h4>
+          <p>Ingeniero y entusiasta de la tecnología. Siempre esta aprendiendo sobre tecnología. Además le encanta dar
+            charlas y talleres sobre tecnología tanto actual como retro.</p>
+        </div>
+      </div>
+      <div class="columns socialmedia is-mobile">
+        <div class="column is-3-mobile is-4-tablet"><a href="https://x.com/zerasul"><img src="/static/img/twitter.png"
+              alt="twitter" /></a></div>
+        <div class="column is-3-mobile is-4-tablet"><a href="https://github.com/zerasul"><img
+              src="/static/img/github.png" alt="github" /></a></div>
+        <div class="column is-3-mobile is-3-tablet"><a href="https://www.linkedin.com/in/victor-suarez-garcia/"><img
+              src="/static/img/linkedin.png" alt="linkedin" /></a></div>
+        <div class="column is-3-mobile is-3-tablet"><a href="https://mastodon.social/@zerasul">
+            <img src="/static/img/mastodon.svg" alt="mastodon" style="max-width: 2em;" />
+          </a></div>
+      </div>
+      <div class="subcontent">
+        <p>&copy; 2024. Made with <a href="https://getblask.com">Blask</a>.</p>
+      </div>
+    </div>
+  </div>
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</body>
+
 </html>
-
-
-
