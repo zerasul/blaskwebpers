@@ -15,6 +15,26 @@
 <div class="card">
   <div class="card-content">
     <p class="title">
+      16 Bits Homebrew Development
+    </p>
+    <p class="subtitle">
+      Versión en inglés del libro de desarrollo de videojuegos para Sega Mega drive. Disponible también en Digital y libro impreso.
+    </p>
+  </div>
+  <footer class="card-footer">
+        <p class="card-footer-item">
+            <span><a href="https://github.com/zerasul/mdbook_en">Repo</a></span>
+        </p>
+        <p class="card-footer-item">
+            <span><a href="https://www.amazon.com/dp/B0CW4TH2NJ">Libro en Amazon</a></span>
+        </p>
+     </footer>
+</div>
+
+<div class="article">
+<div class="card">
+  <div class="card-content">
+    <p class="title">
       Desarrollo Homebrew para 16 Bits
     </p>
     <p class="subtitle">
