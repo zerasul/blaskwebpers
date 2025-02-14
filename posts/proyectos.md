@@ -15,6 +15,26 @@
 <div class="card">
   <div class="card-content">
     <p class="title">
+      Make Classic Games (Creación de Contenido)
+    </p>
+    <p class="subtitle">
+      Canal de Twitch y Youtube; donde creo contenido relacionado con el desarrollo de videojuegos clásicos.
+    </p>
+  </div>
+  <footer class="card-footer">
+        <p class="card-footer-item">
+            <span><a href="https://www.twitch.tv/makeclassicgames/">Twitch</a></span>
+        </p>
+        <p class="card-footer-item">
+            <span><a href="https://www.youtube.com/@MakeClassicgames">Youtube</a></span>
+        </p>
+     </footer>
+</div>
+
+<div class="article">
+<div class="card">
+  <div class="card-content">
+    <p class="title">
       16 Bits Homebrew Development
     </p>
     <p class="subtitle">
